@@ -1,0 +1,21 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "nhanvien" (
+	"ma_nv"	INTEGER,
+	"ten_nv"	TEXT NOT NULL,
+	"dia_chi"	TEXT NOT NULL,
+	"sdt"	TEXT NOT NULL,
+	"email"	TEXT NOT NULL,
+	"ngay_sinh"	TEXT NOT NULL,
+	PRIMARY KEY("ma_nv")
+);
+CREATE TABLE IF NOT EXISTS "thuoc" (
+	"id"	INTEGER,
+	"tenthuoc"	TEXT NOT NULL,
+	"manhacungcap"	INTEGER NOT NULL,
+	"soluong"	INTEGER NOT NULL,
+	"hansudung"	TEXT NOT NULL,
+	"ngaysanxuat"	TEXT NOT NULL,
+	PRIMARY KEY("id")
+);
+INSERT INTO "thuoc" VALUES (1,'thuốc ho',1,1,'12/9/2024','30/9/2030');
+COMMIT;

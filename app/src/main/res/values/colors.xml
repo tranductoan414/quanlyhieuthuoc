@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yourColor">#FF5722</color>
+    <color name="colorThuoc">#FF6347</color> <!-- Màu đỏ cho nút Thuốc -->
+    <color name="colorNhanVien">#32CD32</color> <!-- Màu xanh lá cho nút Nhân viên -->
+    <color name="colorNhaCungCap">#1E90FF</color> <!-- Màu xanh dương cho nút Nhà cung cấp -->
+    <color name="colorThongTinKhac">#FFD700</color> <!-- Màu vàng cho nút Thông tin khác -->
+</resources>

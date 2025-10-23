@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- Button Thuốc -->
+    <Button
+        android:id="@+id/btnThuoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thuốc"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorThuoc"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button Nhân viên -->
+    <Button
+        android:id="@+id/btnNhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhân viên"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorNhanVien"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button Nhà cung cấp -->
+    <Button
+        android:id="@+id/btnNhaCungCap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhà cung cấp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorNhaCungCap"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button Thông tin khác -->
+    <Button
+        android:id="@+id/btnThongTinKhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorThongTinKhac"
+        android:text="Thông tin khác"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

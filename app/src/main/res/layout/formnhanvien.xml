@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/edt_ma_nv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Ma nhan vien" />
+
+    <EditText
+        android:id="@+id/edt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ten nhan vien" />
+
+    <EditText
+        android:id="@+id/edt_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dia chi" />
+
+    <EditText
+        android:id="@+id/edt_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="So dien thoai" />
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email" />
+    <EditText
+        android:id="@+id/edt_ngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngay sinh" />
+    <!-- Action Buttons for CRUD Operations -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_themnv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Them" />
+
+        <Button
+            android:id="@+id/btn_sua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sua" />
+
+        <Button
+            android:id="@+id/btn_xoa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xoa" />
+    </LinearLayout>
+
+    <!-- Search field -->
+    <EditText
+        android:id="@+id/edt_tknv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tim kiem nhan vien"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_timkiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tim kiem" />
+
+    <!-- ListView to display employee data -->
+    <ListView
+        android:id="@+id/lv_nv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
